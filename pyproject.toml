@@ -9,5 +9,7 @@ dependencies = [
     "aiosqlite>=0.22.1",
     "asyncpg>=0.31.0",
     "pydantic-settings>=2.15.0",
-    "sqlalchemy>=2.1.3",
+    "SQLAlchemy[asyncio]==2.1.3",
+    "fluentogram==1.1.7",
+    "python-dotenv==1.2.2"
 ]
